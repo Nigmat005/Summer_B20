@@ -1,4 +1,3 @@
-package replt;
 
 public class Method_with_String_extractNumberfromString {
 
