@@ -78,7 +78,7 @@ class Method_5 {
 
         i = 4;
         result = square(i);
-        System.out.println("Square of 4 is: " + result);
+        System.out.println("Square of 4 is: " + Method_5.square(i));
     }
 
     // method
@@ -96,11 +96,11 @@ class method_6{
         int b;
          b=5;
         square(b);
-        System.out.println("Square of 5 is: "+square(b));
+        System.out.println("Square of 5 is: "+method_6.square(b));
          int a;
          a=6;
         square(a);
-        System.out.println("Square of 5 is: "+square(a));
+        System.out.println("Square of 5 is: "+method_6.square(a));
 
     }
 }
