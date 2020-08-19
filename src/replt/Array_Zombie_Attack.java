@@ -25,7 +25,7 @@ class Array_Zombie_Attack2{
                        }
                        if(inhabitants[i]==0 && inhabitants[i+1]!=0){
                            inhabitants[i+1]/=2;
-                           i+=1; //in case of let one element become twice in one time(or in one day)
+                           i+=1; //in case of  one element becomes twice(devided by its last and next 0) in one time(or in one day)
                        }
 
 
