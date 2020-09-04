@@ -24,6 +24,7 @@ public class Tester {
         System.out.println(name+" is creating ticket");
     }
 
+
     public String toString(){
         return "Name: "+name+", Gender: "+gender+", Job Title: "+jobTitle+", Salary: "+salary+", Employee ID: "+employeeID;
     }

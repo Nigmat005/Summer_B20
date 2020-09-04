@@ -6,7 +6,14 @@ import java.util.Arrays;
 public class CapitalOne {
         public static void main(String[] args) {
 
-            Tester[] testers = { new Tester(), new Tester(), new Tester() };
+           Tester[] testers = { new Tester(), new Tester(), new Tester() };
+//            Tester obj1= new Tester();
+//            Tester obj2= new Tester();
+//            Tester obj3= new Tester();
+//            Tester obj4= new Tester();
+//            Tester obj5= new Tester();
+//
+
             testers[0].setInfo("Aalia", 'F', 15111L,"Lead Tester",180000);
             testers[1].setInfo("Naz",'F',15222L,"Tester", 180000);
             testers[2].setInfo("Kalbinur",  'F', 15333L, "Tester", 210000);

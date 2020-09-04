@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="14" />
+  </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="Summer_B20" options="--add-exports java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED" />
+      <module name="Summer_B20_original" options="--add-exports java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED" />
     </option>
   </component>
 </project>

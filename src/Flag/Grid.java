@@ -15,7 +15,7 @@ import javax.swing .*;
             int r = grid.getHt(), c = grid.getWd(), size = 6, sH = r / size,
                     sW = c / size, sX = r / 4, sY = r - 8 + (r / 10), mX = r / 6, mY = r / 3 - (r / 15);
             sW += sW / 2 + 1;
-            Color bg = new Color(85, 158, 226), star = Color.WHITE;
+            Color bg = new Color(85, 158, 226), star = Color.white;
             for (int i = 0; i < r - 3; i++)
                 for (int j = 0; j < c - 8; j++)
                     grid.setColor(i, j, bg);

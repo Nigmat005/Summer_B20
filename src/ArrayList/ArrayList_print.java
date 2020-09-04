@@ -1,5 +1,8 @@
 package ArrayList;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+
 public class ArrayList_print {
     public static void main(String[] args) {
         ArrayList<Integer> list=new ArrayList<>();
@@ -32,6 +35,41 @@ public class ArrayList_print {
 
         System.out.println("Max: "+max);
         System.out.println("Min: "+min);
+
+// collection Max and Min
+        System.out.println(Collections.max(list));
+        System.out.println(Collections.min(list));
+        System.out.println(Collections.max(list1));
+        System.out.println(Collections.min(list1));
+
+
+
+    }
+}
+
+
+
+class testOriginal_Remove{
+    public static void main(String[] args) {
+        ArrayList<String>StringList=new ArrayList<>();
+        String[] stringarr={"HI","HI","Apple","Banana","Orange","Apple","Peach","Orange"};
+        StringList.addAll(Arrays.asList(stringarr));
+        System.out.println(StringList);
+        // remove All duplicate element using removeif()method
+
+//       StringList.removeIf(p-> Collections.frequency(StringList,p)!=1);
+//        System.out.println(StringList);
+//        System.out.println(StringList.contains("Banana"));
+
+// Traditional Method
+        ArrayList<String>result=new ArrayList<>();
+
+        for(int i=0;i<StringList.size();i++){
+           if(!result.contains(StringList.get(i))){
+               result.add(StringList.get(i));
+           }
+        }
+        System.out.println(result);
 
 
     }
